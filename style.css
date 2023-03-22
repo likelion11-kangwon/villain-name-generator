@@ -94,9 +94,3 @@ body {
 #output-text {
     font-size: 1.2rem;
 }
-
-#output-guide-text {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    word-wrap: break-word;
-}
