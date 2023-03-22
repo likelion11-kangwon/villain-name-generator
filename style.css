@@ -1,0 +1,102 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+#wrapper {
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+    row-gap: 12px;
+}
+
+#form input {
+    text-align: center;
+    padding: 8px 4px;
+    border-radius: 4px;
+    border: 0;
+}
+
+#form button {
+    border: 0;
+    padding: 8px 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 4px;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#output-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    opacity: 0;
+
+    text-align: center;
+}
+
+#output-box.enabled {
+    opacity: 1;
+}
+
+#output-text {
+    font-size: 1.2rem;
+}
+
+#output-guide-text {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    word-wrap: break-word;
+}
